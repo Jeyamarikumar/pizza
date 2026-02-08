@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hi{
+    margin-top: 4.4%;
+    width: 65.5%;
+    height: 83.5vh;
+    margin-left: 33.1rem;
+   filter: brightness(80%)
+   
+}
+
+header{
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(60, 44, 44);
+    margin-top: 4.2rem;
+    background-color:rgb(255, 166, 0) ;
+    padding-top: 200px;
+    height: 54vh;
+    box-shadow: inset 2px 0 30px #000000;
+}
+
+header button{
+    margin-top: 1.5rem;
+    padding: 0.7rem 1.4rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(168, 0, 3, 0.873);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+header button:hover{
+    background-color: black;
+    color: orange;
+    transform: scale(1.1);
+}
+
+footer{
+    background-color: rgba(19, 18, 18, 0.888);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.2rem;
+    position: fixed;
+    width: 99.6%;
+    font-size: 14px;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    #hi{
+       
+        width: 55%;
+        height: 72vh;
+        margin-left: 0rem;
+       
+    }
+
+    nav{
+       
+        margin-left: 51%;
+        font-size: 14px;
+        gap: 2rem;
+    }
+    
+    footer{
+        margin-bottom: -9%;
+    }
+}
