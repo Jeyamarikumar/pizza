@@ -1,0 +1,243 @@
+/* .counter-container{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.count-display{
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.counter-button{
+    width: 170px;
+    height: 60px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color:rgba(0, 0, 0, 0.544);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    border:6px solid rgba(0, 0, 0, 0.188);
+    
+}
+
+.counter-button:hover{
+    border:6px solid rgb(153, 205, 50);
+    background-color: black;
+} */
+
+/* body{
+    font-family: Arial,sans-serif;
+}
+
+.color-picker-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.color-disp{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.438);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: all 0.25s ease;
+}
+
+.color-disp p{
+    color: hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.268);
+} */
+
+/* .profile{
+    margin: 20px;
+    margin-left: 30px;
+    text-align: center;
+    max-width: 250px;
+  
+}
+
+
+
+.profile img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile h1{
+    margin-bottom: 10px;
+}
+
+
+.slider{
+   position: absolute;
+    max-width: 800px;
+    display: flex;
+    margin-left: 30%;
+    margin-top: -23%;
+    
+}
+
+@media (max-width: 586px){
+    .slider{
+        max-width: 400px;
+        top: 450px;
+        margin-left: 50px;
+        
+    }
+}
+
+
+
+@media (max-width: 586px) {
+    .profile{
+        max-width: 200px;
+        
+    }
+    .profile img{
+   margin-left: 92px;
+}
+
+.profile h1{
+    margin-left: 120px;
+}
+
+.profile span{
+    position: absolute;
+   text-align: center;
+   margin-left: -50px;
+}
+
+}
+ */
+
+
+ body{
+    background-color: rgba(0, 0, 0, 0.936);
+ }
+
+ .to-do-list{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+    
+ }
+
+ h1{
+    font-size: 4rem;
+    color: white;
+ }
+
+ input{
+  
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+
+    padding-bottom: 6px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+ }
+
+ button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 19px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    transition: background-color 0.5 ease;
+ }
+
+ .add-button{
+    background-color:rgb(21, 209, 21);
+   
+
+ }
+ .add-button:hover{
+    background-color:rgb(19, 131, 19);
+
+ }
+
+ .delete-button{
+    background-color: red;
+ }
+
+  .delete-button:hover{
+    background-color: rgb(152, 15, 15);
+ }
+
+ .up-button{
+    background-color: rgb(86, 86, 252);
+ }
+
+  .up-button:hover{
+    background-color: rgb(44, 44, 154);
+ }
+
+  .down-button{
+    background-color: rgb(86, 86, 252);
+ }
+
+  .down-button:hover{
+    background-color: rgb(44, 44, 154);
+ }
+
+
+ ol{
+    padding: 0;
+ }
+
+ li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.192);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+ }
+
+ .text{
+    flex-grow: 1;
+
+ }
+
+ .delete-button, .up-button, .down-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+ }
+
+
+

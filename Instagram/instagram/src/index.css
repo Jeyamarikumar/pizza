@@ -1,0 +1,75 @@
+.w-20{
+    width: 20%;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.logo {
+    width: 150px;
+    margin-top: -30%;
+    margin-bottom: -40%;
+    margin-left: -8%;
+   filter: contrast(1%);    
+}
+
+.bi{
+    margin-right: 10px;
+}
+
+.story{
+    height: 90px;
+    padding: 10px;
+}
+
+.dp{
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 5px;
+
+}
+
+.image{
+    width: 500px;
+}
+
+.load{
+    height: 90px;
+
+
+}
+
+.suggestions{
+    width: 80%;
+    font-size: medium;
+}
+
+.user{
+    margin-top: -7%;
+}
+
+.btn{
+    width: 40%;
+}
+
+.gradient-border{
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #ff00ff, #ff6600, #ffcc00);
+
+}
+
+.story-dp{
+  width: 50px;
+ 
+}
+
+.profile{
+    width: 100px;
+    height: 100px;
+}

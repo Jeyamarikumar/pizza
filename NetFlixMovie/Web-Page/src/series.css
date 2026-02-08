@@ -1,0 +1,149 @@
+    #a img{
+       width: 80%;
+       height: 150%;
+       overflow: hidden;
+       padding-bottom: 40px;
+       padding-top: 10px;
+       animation: speed 2s  infinite alternate-reverse linear;
+       border-radius: 10px;
+       
+      
+    }
+    
+    @font-face {
+    font-family: "poppins-font";
+    src: url('./assets/poppins-font/PoppinsRegular-B2Bw.otf');
+}
+
+    body{
+        font-family: "poppins-font";
+    src: url('./assets/poppins-font/PoppinsRegular-B2Bw.otf');
+    }
+
+    
+
+    .page2{
+        background-color: black;
+        background-size: cover;
+        padding-bottom: 180px;
+        padding-top: 50px;
+        
+      
+       
+    }
+
+ 
+
+
+  
+
+    .text{
+        position: absolute;
+        color: white;
+        padding-top: 300px;
+        padding-left: 10px;
+        font-size: large;
+        
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+
+    .screen img{
+        margin-top: 0%;
+        width: 100%;
+        height: 490px;
+        margin-left: 0%;
+        overflow: hidden;
+        border-radius: 20px;
+        
+       
+        
+    }
+
+
+    .cd{
+
+        position: absolute;
+        margin-top: -37%;
+        margin-left: -4%;
+        padding-left: 150px;
+        padding-right: 20px;
+        padding-top: 150px;
+        padding-bottom: 58px;
+        background-color: #0000009d;
+        backdrop-filter: blur(6px);
+         transition: all 0.5s ease;
+        
+    }
+
+  
+
+    .b1{
+        border-radius: 10px;
+        width: 80px;
+         background-color: white;
+        color: black;
+         font-weight: 700;
+          border: 3px solid rgba(255, 255, 255, 0.423);
+       margin-right: 4%;
+       transition:all 0.3s ease-in-out;
+         
+         cursor: pointer;
+    }
+
+    .b2{
+        border-radius: 10px;
+        width: 80px;
+        background-color: rgba(19, 19, 19, 0.856);
+         color: white;
+         font-weight: 700;
+         border: 3px solid rgba(255, 255, 255, 0.423);
+         position: absolute;
+         transition:all 0.3s ease-in-out;
+         
+         cursor: pointer;
+    }
+
+    .b2:hover{
+       background-color: white;
+        color: #000;
+        transform: scale(1.1);
+        border-color: #000;
+        
+    }
+   .b1:hover{
+        background-color: black;
+        color: white;
+        transform: scale(1.1);
+        border-color: white;
+        box-shadow: 0px 0px 20px black inset;
+    }
+
+
+
+
+    
+
+    .netfl{
+        position: absolute;
+        width: 50px;
+        height: 35px;
+        margin-top: -1px;
+        margin-left: -1%;
+    }
+
+    
+    .toggle button{
+   position: absolute;
+   margin-left: -1%;
+   
+}
+
+.btn{
+    padding: 20px;
+
+}
+

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.467);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    position: fixed;
+    font-size: 9px;
+    padding: 1rem ;
+}
+
+nav span{
+  list-style: none;
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+   
+    
+}
+
+nav span:hover{
+    color: white;
+    transform: scale(1.1);
+}
+nav a:hover{
+    transform: scale(1.1);
+}
+
+nav #logo{
+
+    font-size: 25px;
+    color: orange;
+    font-weight: bold;
+   
+    
+}
+
+
+nav ol{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 3.5rem;
+    margin-left: 50rem;
+    
+   
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    position: fixed;
+    padding-left: 10px;  
+    background-color: rgba(19, 18, 18, 0.778);
+    width: 101%;
+    text-decoration: none;
+}
+
+nav a.active span {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
