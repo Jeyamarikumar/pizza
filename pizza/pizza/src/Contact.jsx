@@ -1,35 +1,39 @@
 import React from 'react'
-import './contact.css'  
+import './contact.css'
 import pic from './assets/cont.jpg'
-
 
 function Contact() {
   return (
-    <div className='contactbg'>
-      <img src={pic} alt="" id='contac'/>
-     <div className='form'>
-      <h3 id='title'>Review Us</h3>
-      <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required placeholder='Enter Your Name'/><br/><br/>
-        <label htmlFor="favorite">Favorite Pizza:</label>
-        <input type="text" id="favorite" name="favorite" required placeholder='Enter Your Favorite Pizza'/><br/><br/>
-        <label htmlFor="email">Email:</label>
-        <input type="text" id="email" name="email" required placeholder='Enter Your Email'/><br/><br/>
-        <label htmlFor="message">Message:</label>
-        <textarea type="text" id="message" name="message" required placeholder='Enter Your Message'/><br/><br/>
-        <button type="submit">Submit</button>
-        </form>
-     </div>
-     <footer className="foot">
-      <p className='para'>Pizza Hub Contact us on :</p>
-        <p>© 2024 Pizza Hub. All rights reserved.</p>
-        <div className="social-icons">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📷 Instagram</a>
-          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">📺 YouTube</a>
+    <div className='contact-container'>
+      <div className='contact-content'>
+        <div className='contact-image-wrapper'>
+          <img src={pic} alt="Contact Us" className='contact-image' />
         </div>
-      </footer>
+        <div className='contact-form-wrapper'>
+          <h3 className='contact-title'>Review Us</h3>
+          <form className='contact-form'>
+            <div className="input-group">
+              <label htmlFor="name">Name</label>
+              <input type="text" id="name" name="name" required placeholder='Enter Your Name' />
+            </div>
+            <div className="input-group">
+              <label htmlFor="favorite">Favorite Pizza</label>
+              <input type="text" id="favorite" name="favorite" required placeholder='Enter Your Favorite Pizza' />
+            </div>
+            <div className="input-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder='Enter Your Email' />
+            </div>
+            <div className="input-group">
+              <label htmlFor="message">Message</label>
+              <textarea id="message" name="message" rows="4" required placeholder='Enter Your Message'></textarea>
+            </div>
+            <button type="submit" className="submit-btn">Submit Review</button>
+          </form>
+        </div>
+      </div>
+
+
     </div>
   )
 }
